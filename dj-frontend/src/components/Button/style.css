@@ -3,8 +3,8 @@
     align-items:center;
     justify-content:center;
     border-radius: 18px;
-    width: 150px;
-    min-width: 74px;
+    max-width: 150px;
+    min-width: 70px;
     font-family: 'Playground';
     background-color: #73F980;
     color:white;
@@ -28,7 +28,20 @@
     .button div{
         font-size: 1.1rem
     }
-    .button{
-        
+}
+@media screen and (max-width:720px){
+    .button div{
+        font-size: 1rem
     }
+
+}
+@media screen and (max-width:420px){
+    .button {
+        max-width: 100px;
+       
+    }
+    .button div{
+        font-size: 0.7rem;
+    }
+
 }

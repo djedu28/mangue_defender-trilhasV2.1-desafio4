@@ -8,7 +8,7 @@ import Button from "src/components/Button";
 
 export default function Section1() {
   return (
-    <SectionContainer style={{ backgroundColor: "#E3AE79"}}>
+    <SectionContainer style={{ backgroundColor: "#E3AE79"}} id="section1">
       <Hero style={{ width: "100%", height: "870px", zIndex: "2", maxWidth: "870px", margin:"auto", marginBottom: "-230px" }} />
       <Bubble  style={{
           position: "absolute",

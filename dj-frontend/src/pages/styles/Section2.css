@@ -1,4 +1,8 @@
 .content{
+    width: 100%;
+    z-index: 2;
+}
+.about{
     display: flex;
     align-items:center;
     justify-content:center;
@@ -18,4 +22,15 @@
     align-items: flex-end;
     justify-content: center;
 }
+.about_mobile{
+    display:none;
+}
 
+@media screen and (max-width: 720px){
+    .about{
+        display:none;
+    }
+    .about_mobile{
+        display:block;
+    }
+}
