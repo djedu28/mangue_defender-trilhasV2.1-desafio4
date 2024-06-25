@@ -10,7 +10,7 @@ export default function Header() {
         <a>Home</a>
         <a>SOBRE O JOGO</a>
         <a> INSCREVA-SE</a>
-        <a>SOBRE</a>
+        <a>SOBRE NÓS</a>
       </tab>
         <Button action={() => {}}>JOGUE AGORA</Button>
     </header>

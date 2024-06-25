@@ -8,8 +8,8 @@ import Button from "src/components/Button";
 
 export default function Section1() {
   return (
-    <SectionContainer style={{ backgroundColor: "#E3AE79" }}>
-      <Hero style={{ width: "100%", height: "750px", zIndex: "2", maxWidth: "750px", margin:"auto", marginTop: "10vw" }} />
+    <SectionContainer style={{ backgroundColor: "#E3AE79"}}>
+      <Hero style={{ width: "100%", height: "870px", zIndex: "2", maxWidth: "870px", margin:"auto", marginBottom: "-230px" }} />
       <Bubble  style={{
           position: "absolute",
           width: "50px",
@@ -43,7 +43,7 @@ export default function Section1() {
           width: "50px",
           zIndex: "1",
           right: "20%",
-          top: "-20px",
+          top: "10px",
           transform: "rotate(90deg)"
         }}
       />
@@ -62,7 +62,7 @@ export default function Section1() {
           width: "50px",
           zIndex: "3",
           right: "50%",
-          top: "50%",
+          bottom: "-9%",
           transform: "rotate(90deg)"
         }}
       />
