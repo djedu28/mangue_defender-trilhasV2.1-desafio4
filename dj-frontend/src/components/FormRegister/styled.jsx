@@ -149,3 +149,70 @@ export const FormHelperText = styled("p")`
     font-size: 1rem;
     color: #5c000f ;
 `;
+
+
+export const StyledBoxLaranja = styled("form")`
+    /* width: 550px; */
+
+    min-height: 625px;
+    z-index:6!important;
+    flex:content;
+
+    width: 100%;
+    min-width: min-content;
+    max-width: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 40px 15px;
+    gap: 25px; 
+
+    background: #FF850B;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    &:hover {
+        z-index: 9!important;
+    }
+    h2 {
+        /* INSCREVA-SE */
+        font-family: 'Playground';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 59px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        /* Inside auto layout */
+        flex: none;
+        flex-grow: 0;
+    }
+    .container-text-success {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        /* Inscrição realizada com sucesso! Clique abaixo para baixar o jogo no seu android */
+        font-family: 'Acme';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+`;

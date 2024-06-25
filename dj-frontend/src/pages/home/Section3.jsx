@@ -60,6 +60,9 @@ const StyledSection3 = styled("div")`
             z-index: 9;
         }
     }
+    @media (max-width:600px){
+        .div-form {padding-right: 2rem;}
+    }
 `;
 export default function Section3({ ...props }) {
 

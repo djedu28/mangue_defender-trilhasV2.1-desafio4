@@ -422,6 +422,7 @@ const StyledChaoPedras = styled("div")`
     left: calc(50% - 2456px/2 - 30px);
     bottom: -13px;
 
+    z-index: 7;
 
 .chaopedras-e {
 
