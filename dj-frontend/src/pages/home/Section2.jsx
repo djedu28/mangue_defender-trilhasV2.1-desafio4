@@ -30,5 +30,5 @@ export default function Section2() {
           <AboutMobile style={{ width: "100%", height: "100%", zIndex: "2" }} />
         </div>
       </div>
-
+      </ SectionContainer>
 }
