@@ -18,7 +18,10 @@ module.exports = {
         extensions: [
           ".js",
           ".jsx",
-          ".json"
+          ".json",
+          ".css",
+          ".svg",
+          ".*",
         ]
       }
     }
