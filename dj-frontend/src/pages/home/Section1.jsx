@@ -82,6 +82,4 @@ export default function Section1() {
             inscrever-me
         </Button>
       </div>
-    </SectionContainer>
-  );
 }

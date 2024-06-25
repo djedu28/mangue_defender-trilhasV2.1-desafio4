@@ -2,9 +2,9 @@
 
 import SectionContainer from "src/components/Sections";
 
-export default function Section3() {
+export default function Section3({ ...props }) {
 
-    return <SectionContainer>
+    return <SectionContainer {...{ ...props }} bg="#F6D0B0">
 
     </SectionContainer>
 }

@@ -13,10 +13,12 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
+
+      <Section1 id="HOME"/>
+      <Section2 id="SOBRE-O-JOGO" />
+      <Section3 id="INSCREVA" />
+      <Section4 id="SOBRE-NOS" />
+      
       <Footer />
     </main>
   )
