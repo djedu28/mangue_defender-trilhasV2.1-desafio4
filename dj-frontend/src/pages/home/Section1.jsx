@@ -2,9 +2,9 @@
 
 import SectionContainer from "src/components/SectionContainer";
 
-export default function Section1() {
+export default function Section1({...props}) {
 
-    return <SectionContainer>
+    return <SectionContainer {...{ ...props }}>
 
     </SectionContainer>
 }

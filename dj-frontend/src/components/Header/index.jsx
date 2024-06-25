@@ -38,13 +38,15 @@ export default function Header(){
 
     return <StyleHeader >
         <div className="container">
-            <Logo/>
+            <Link to="/#HOME">
+                <Logo />
+            </Link>
             
             <nav>
-                <Link to="#HOME"> HOME </Link>
-                <Link to="#SOBRE-O-JOGO"> SOBRE O JOGO </Link>
-                <Link to="#INSCREVA"> INSCREVA-SE </Link>
-                <Link to="#SOBRE-NOS"> SOBRE NÓS </Link>
+                <Link to="/#HOME"> HOME </Link>
+                <Link to="/#SOBRE-O-JOGO"> SOBRE O JOGO </Link>
+                <Link to="/#INSCREVA"> INSCREVA-SE </Link>
+                <Link to="/#SOBRE-NOS"> SOBRE NÓS </Link>
             </nav>
 
             <BtnJogar/>
