@@ -1,5 +1,3 @@
-// import SectionContainer from "src/components/SectionContainer";
-
 import SectionContainer from "src/components/SectionContainer";
 import styled from "styled-components";
 

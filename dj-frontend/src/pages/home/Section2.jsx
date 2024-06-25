@@ -1,5 +1,5 @@
 import Roots from "src/assets/images/roots.svg?react";
-import SectionContainer from "src/components/SectionContainer";
+import SectionContainer from "src/components/Sections";
 import Plate from "src/assets/images/plate.svg?react";
 import About from "src/assets/images/about.svg?react";
 import AboutMobile from "src/assets/images/about_mobile.svg?react";
