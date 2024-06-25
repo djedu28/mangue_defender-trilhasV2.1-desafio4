@@ -1,0 +1,14 @@
+.section1_footer{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+    margin-top: auto;
+    background: #ED9F50;
+    padding: 0.2rem 2rem;
+}
+
+.section1_footer img{
+    width: 120px;
+    object-fit:contain;
+}
