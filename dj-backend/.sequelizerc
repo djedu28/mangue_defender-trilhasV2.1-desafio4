@@ -1,0 +1,20 @@
+/**
+ * O arquivo .sequelizerc é um arquivo de configuração para o Sequelize CLI,
+ * que é uma ferramenta que ajuda a criar e gerenciar modelos, migrações,
+ * seeds e outros artefatos do banco de dados de forma mais fácil.
+ */
+
+const path = require('path');
+
+module.exports = {
+    config: path.resolve(__dirname, 'api', 'config', 'database.js'),
+    'models-path': path.resolve(__dirname, 'api', 'models'),
+    'seeders-path': path.resolve(__dirname, 'api', 'database', 'seeders'),
+    'migrations-path': path.resolve(__dirname, 'api', 'database', 'migrations'),
+};
+
+/**
+ * Com esta configuração, você pode executar comandos Sequelize CLI,
+ *   como sequelize model:generate ou sequelize db:migrate, a partir da raiz do projeto,
+ *   e o CLI irá automaticamente buscar os arquivos na pasta correta.
+ */

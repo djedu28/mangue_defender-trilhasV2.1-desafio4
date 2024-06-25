@@ -1,0 +1,16 @@
+
+@import url(https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css);
+@import url(./dark.css);
+
+
+select {
+    width: 100%;
+    padding: 10px;
+}
+
+body {
+    max-width: 90vw;
+    /* width: 100%; */
+    margin: 0 auto;
+}

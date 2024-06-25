@@ -1,0 +1,21 @@
+{
+    "name": "Nome do seu site",
+    "short_name": "Nome curto",
+    "description": "Breve descrição do seu site",
+    "start_url": "/",
+    "background_color": "#f7f7f7",
+    "theme_color": "#333333",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
