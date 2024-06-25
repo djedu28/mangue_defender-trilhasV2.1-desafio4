@@ -1,8 +1,19 @@
-import './style.css'
+import styled from 'styled-components'
 
-export default function SectionContainer({children, style, id}) {
+const StyledSectionContainer = styled("section")`
+    min-height: 50vh;
 
-    return <section style={style} id={id}>
+`;
+
+export default function SectionContainer({ bg, children, style = {}, id, name }) {
+
+    return <StyledSectionContainer
+        style={{
+            ...style,
+            background: bg || style?.backgroundColor,
+        }}
+        {...{ id, name, }}
+    >
         {children}
-    </section>
+    </StyledSectionContainer>
 }
