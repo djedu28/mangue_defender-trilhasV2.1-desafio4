@@ -9,6 +9,16 @@
 }
 
 .section1_footer img{
-    width: 120px;
+    width: 220px;
     object-fit:contain;
+}
+
+@media screen and (max-width: 720px){
+    .section1_footer{
+        padding:0.2rem 0.5rem;
+    }
+    .section1_footer img{
+        width: 150px;
+        object-fit:contain;
+    }
 }
