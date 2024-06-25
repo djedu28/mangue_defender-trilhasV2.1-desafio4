@@ -1,6 +1,8 @@
-export default function SectionContainer({children}) {
+import './style.css'
 
-    return <section>
+export default function SectionContainer({children, style}) {
+
+    return <section style={style}>
         {children}
     </section>
 }

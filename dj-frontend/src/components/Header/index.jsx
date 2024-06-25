@@ -5,7 +5,7 @@ import "./styles.css";
 export default function Header() {
   return (
     <header>
-      <ReactLogo style={{width:'220px', height: "90px"}}/>
+      <ReactLogo style={{width:'200px', height: "91px"}}/>
       <tab>
         <a>Home</a>
         <a>SOBRE O JOGO</a>
