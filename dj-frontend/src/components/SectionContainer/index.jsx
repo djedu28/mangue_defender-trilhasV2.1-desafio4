@@ -6,9 +6,12 @@ const StyledSectionContainer = styled("section")`
 `;
 
 // eslint-disable-next-line react/prop-types
-export default function SectionContainer({children}) {
+export default function SectionContainer({ bg, children, ...props}) {
 
-    return <StyledSectionContainer>
+    return <StyledSectionContainer 
+        style={{ background: bg }} 
+        {...{ props }}
+    >
         {children}
     </StyledSectionContainer>
 }
