@@ -3,7 +3,7 @@ import Bubbles from "src/assets/images/bubble2.svg?react";
 import Bubble from "src/assets/images/bubble1.svg?react";
 import "../styles/Section1.css";
 
-import SectionContainer from "src/components/SectionContainer";
+import SectionContainer from "src/components/Sections";
 import Button from "src/components/Button";
 
 export default function Section1() {
@@ -82,4 +82,6 @@ export default function Section1() {
             inscrever-me
         </Button>
       </div>
+    </SectionContainer>
+  );
 }
