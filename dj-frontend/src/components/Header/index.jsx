@@ -1,55 +1,31 @@
-import styled from "styled-components"
-import Logo from "../Logo"
-import { Link } from "react-router-dom";
-import BtnJogar from "../BtnJogar";
+
+import ReactLogo  from "../../assets/images/logo.svg?react";
+import {useState} from 'react'
+import Button from "../Button";
+import "./styles.css";
 
 
-const StyleHeader = styled("div")`
-    /* backgrounrgba(255, 133, 11, 0.37)37); */
-    background: #ed9f50;
+export default function Header() {
+  const [open, setOpen] = useState(false);
 
-    .container {
-        display: flex;
-        /* place-items:center; */
-        align-items: center;
-        justify-content: space-between;
-        min-height: 112px;
-    }
+  const toggleMenu = () => {
+    setOpen(!open);
+  };
 
-    nav {
-        font-family: 'Playground';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 28px;
-
-        color: #FFFFFF;
-
-        display: flex;
-        gap:25px;
-        justify-content: space-between
-
-
-    }
-
-
-`;
-export default function Header(){
-
-    return <StyleHeader >
-        <div className="container">
-            <Link to="/#HOME">
-                <Logo />
-            </Link>
-            
-            <nav>
-                <Link to="/#HOME"> HOME </Link>
-                <Link to="/#SOBRE-O-JOGO"> SOBRE O JOGO </Link>
-                <Link to="/#INSCREVA"> INSCREVA-SE </Link>
-                <Link to="/#SOBRE-NOS"> SOBRE NÓS </Link>
-            </nav>
-
-            <BtnJogar/>
-        </div>
-    </StyleHeader>
+  return (
+    <header>
+      <div className="hamburger" onClick={toggleMenu}>
+        ☰
+      </div>
+      <ReactLogo style={{maxWidth:'200px', width: "40%", height: "91px"}}/>
+      <nav className={open ? 'nav open' : 'nav'}>
+        <a href="#section1">Home</a>
+        <a href="#section2">SOBRE O JOGO</a>
+        <a href="#section3"> INSCREVA-SE</a>
+        <a href="#section4">SOBRE NÓS</a>
+      </nav>
+        <Button action={() => {}}>JOGUE AGORA</Button>
+    </header>
+  );
 }
+
