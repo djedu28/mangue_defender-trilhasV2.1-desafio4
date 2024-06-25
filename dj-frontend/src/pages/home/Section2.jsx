@@ -5,6 +5,7 @@ import About from "src/assets/images/about.svg?react";
 import AboutMobile from "src/assets/images/about_mobile.svg?react";
 import Button from "src/components/Button";
 
+
 import "../styles/Section2.css";
 export default function Section2() {
   return (
@@ -29,6 +30,5 @@ export default function Section2() {
           <AboutMobile style={{ width: "100%", height: "100%", zIndex: "2" }} />
         </div>
       </div>
-    </SectionContainer>
-  );
+
 }

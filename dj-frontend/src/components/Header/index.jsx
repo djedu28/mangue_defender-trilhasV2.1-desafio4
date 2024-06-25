@@ -1,7 +1,9 @@
+
 import ReactLogo  from "../../assets/images/logo.svg?react";
 import {useState} from 'react'
 import Button from "../Button";
 import "./styles.css";
+
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -26,3 +28,4 @@ export default function Header() {
     </header>
   );
 }
+

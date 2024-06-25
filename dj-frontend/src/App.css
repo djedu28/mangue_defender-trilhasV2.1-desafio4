@@ -1,13 +1,19 @@
 #root {
   margin: 0 auto;
   padding: 0;
-
 }
 
-/* #root * {
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0.4rem 2rem;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 h1 {
   font-size: 3.2rem;
@@ -31,4 +37,14 @@ button {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+a:hover, a[current] {
+  text-decoration-line: underline;
+  /* color: inherit; */
 }
