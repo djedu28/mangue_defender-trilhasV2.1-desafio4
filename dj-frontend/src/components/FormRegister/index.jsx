@@ -11,7 +11,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { BtnVerde } from "../BtnJogar";
 import BtnGooglePlay from "../BtnGooglePlay";
-import api from "src/services/api";
+// import api from "src/services/api";
 import { useState } from "react";
 
 
@@ -109,7 +109,7 @@ export function FormRegister() {
         {
             modalSuccessData 
                 ? <FormSuccess data={modalSuccessData}/>
-                : <Form onSubmit={onSubmit} isLoadding={isLoading} />
+                : <Form onSubmit={onSubmit} />
         }
     </>
         
