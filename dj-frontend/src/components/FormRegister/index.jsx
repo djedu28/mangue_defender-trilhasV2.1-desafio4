@@ -20,7 +20,7 @@ const schema = z.object({
         .max(20, { message: "Máximo de 20 caracteres" }),
     birthday: z.coerce
         .date({ message:"Insira uma data valida" })
-        .max(new Date().toDateString(), { message: "Insira uma data valida"} ),
+        // .max(new Date().toDateString(), { message: "Insira uma data valida"} ),
 });
 
 
