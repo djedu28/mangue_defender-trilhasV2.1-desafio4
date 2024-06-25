@@ -45,7 +45,7 @@ export default function BtnJogar({ to = "#jogar" }){
 
     return (<BtnVerde to={to} text="JOGUE AGORA"/>)
 }
-export function BtnVerde({to, text, ...props}) {
+export function BtnVerde({ to, text, href, ...props}) {
 
 
     const content = (
@@ -55,9 +55,9 @@ export function BtnVerde({to, text, ...props}) {
             </div>
         </StyledBtnJogar>
     )
-    if (props.href){
+    if (href){
        return (
-           <a to={to} {...{ props }} target="none">
+           <a href={href} {...{ props }} target="none">
                {content}
            </a>
        )

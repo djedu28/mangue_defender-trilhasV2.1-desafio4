@@ -133,7 +133,7 @@ function FormSuccess({data}) {
                 Entre para o a comunidade no  whatsapp, e compartilhe a sua experiencia com o jogo
             </div>
             <div className="form-actions">
-                <BtnVerde href="https://play.google.com/store/search?q=mangue%20defender&c=apps" text="JOGUE AGORA" />
+                <BtnVerde href="https://play.google.com/store/search?q=mangue%20defender&c=apps" text="Entrar na comunidade" />
             </div>
         </StyledBoxLaranja >
     )   
