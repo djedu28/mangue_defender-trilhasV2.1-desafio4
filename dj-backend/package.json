@@ -1,5 +1,5 @@
 {
-    "name": "mangue_defender-api_desafio_4_trilhas_inova_v2.1",
+    "name": "mangue_defender-api_desafio_4_trilhas_inova_v2.1-desafio4",
     "template": "dj-backend-template",
     "template-version": "2.1.1",
     "template-author": "Eduardo Santos (@DjEdu28)",
@@ -9,7 +9,7 @@
     "author": "Eduardo Santos (@DjEdu28)",
     "license": "MIT",
     "private": true,
-    "repository": "https://github.com/djedu28/desafio_4_trilhas_inova_v2.1",
+    "repository": "https://github.com/djedu28/mangue_defender-trilhasV2.1-desafio4",
     "template-repository": "https://github.com/djedu28/dj-backend-template",
     "scripts": {
         "att": "yarn upgrade-interactive --latest",

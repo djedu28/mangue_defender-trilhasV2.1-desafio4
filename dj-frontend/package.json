@@ -1,17 +1,28 @@
 {
-  "name": "dj-frontend",
+  "name": "mangue_defender-frontend_desafio_4_trilhas_inova_v2.1-desafio4",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Frontend para o desafio 4 do trilhas inova v2.1 - Time 01 - Mangue Defender",
+  "developer": "Eduardo Santos (@DjEdu28)",
+  "repository": "https://github.com/djedu28/mangue_defender-trilhasV2.1-desafio4",
   "type": "module",
+  "license": "MIT",
   "scripts": {
+    "att": "yarn upgrade-interactive --latest",
     "dev": "vite",
+    "start": "(vite build) && (vite preview)",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.2",
+    "lucide-react": "^0.396.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.50.0",
+    "react-router-dom": "^6.22.0",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
