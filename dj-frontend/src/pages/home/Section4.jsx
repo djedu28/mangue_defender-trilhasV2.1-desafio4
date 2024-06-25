@@ -8,9 +8,9 @@ const StyleSection4 = styled("div")`
 `
 export default function Section4({ ...props }) {
 
-    return <StyleSection4 
-        {...{ ...props }}
-    >
-        <SectionContainer></SectionContainer>
+    return <StyleSection4 >
+        <SectionContainer {...{ ...props }}>
+            
+        </SectionContainer>
     </StyleSection4>
 }
