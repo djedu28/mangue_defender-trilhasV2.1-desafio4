@@ -6,4 +6,5 @@ section{
     position:relative;
     justify-content:center;
     flex-direction: column;
+    overflow:hidden;
 }
