@@ -41,15 +41,30 @@ const StyledBtnJogar = styled("button")`
 
 
 `
-export default function BtnJogar(){
+export default function BtnJogar({ to = "#jogar" }){
 
+    return (<BtnVerde to={to} text="JOGUE AGORA"/>)
+}
+export function BtnVerde({ to, text, href, ...props}) {
+
+
+    const content = (
+        <StyledBtnJogar>
+            <div>
+                {text}
+            </div>
+        </StyledBtnJogar>
+    )
+    if (href){
+       return (
+           <a href={href} {...{ props }} target="none">
+               {content}
+           </a>
+       )
+    }
     return (
-        <Link to="#jogar">
-            <StyledBtnJogar href="#jogar">
-                <div>
-                    JOGUE AGORA
-                </div>
-            </StyledBtnJogar>
+        <Link to={to} {...{ props }}>
+            {content}
         </Link>
     )
 }
